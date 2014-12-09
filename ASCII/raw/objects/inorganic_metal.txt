@@ -437,6 +437,8 @@ Colors added by Bohandas.
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:WHITE]
 
+no ELECTRUM
+
 [INORGANIC:TIN]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:tin]
@@ -475,6 +477,12 @@ Colors added by Bohandas.
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:SILVER]
+
+no PEWTER_FINE
+
+no PEWTER_TRIFLE
+
+no PEWTER_LAY
 
 [INORGANIC:LEAD]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
@@ -594,6 +602,7 @@ temperature values unknown, used nickel
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:SILVER]
 
+no BILLON
 
 temperature values unknown, used silver
 value is weighted average of 3 silver and 1 copper

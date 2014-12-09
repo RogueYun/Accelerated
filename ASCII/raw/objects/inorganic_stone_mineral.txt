@@ -241,6 +241,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:OLIVINE:VEIN:100]
 [ENVIRONMENT_SPEC:MAGNETITE:VEIN:100]
+(ENVIRONMENT_SPEC:CHROMITE:CLUSTER_SMALL:100)
 [ITEM_SYMBOL:'*']
 [METAL_ORE:PLATINUM:100]
 [STATE_NAME_ADJ:ALL_SOLID:native platinum]
@@ -277,6 +278,9 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [ITEMS_HARD]
 [IS_STONE]
 
+no CINNABAR
+
+no COBALTITE
 
 [INORGANIC:TETRAHEDRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -311,7 +315,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 [REACTION_CLASS:GYPSUM]
 [MELTING_POINT:10261]
 
-
+no TALC
 
 [INORGANIC:JET]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -320,6 +324,15 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 [IS_STONE]
 [SOLID_DENSITY:1320]
 
+no PUDDINGSTONE
+
+no PETRIFIED_WOOD
+
+no GRAPHITE
+
+no BRIMSTONE
+
+no KIMBERLITE
 
 ore of bismuth
 [INORGANIC:BISMUTHINITE]
@@ -333,6 +346,23 @@ ore of bismuth
 [MELTING_POINT:11368]
 [SOLID_DENSITY:7000]
 
+no REALGAR
+
+no ORPIMENT
+
+no STIBNITE
+
+no MARCASITE
+
+no SYLVITE
+
+no CRYOLITE
+
+no PERICLASE
+
+no ILMENITE
+
+no RUTILE
 
 [INORGANIC:MAGNETITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -345,6 +375,12 @@ ore of bismuth
 [IS_STONE]
 [MELTING_POINT:12768]
 
+no CHROMITE
+
+no PYROLUSITE
+
+no PITCHBLENDE
+
 an ore of aluminum, but through a too-advanced process, in-game as the source of the corundum gemstones (ruby and sapphire)
 bauxite melts around 2000C, so it's not practical to smelt it for aluminum (magma only goes up to 1300-1400)
 [INORGANIC:BAUXITE]
@@ -354,7 +390,7 @@ bauxite melts around 2000C, so it's not practical to smelt it for aluminum (magm
 [MELTING_POINT:13600]
 [BOILING_POINT:15000]
 [IS_STONE]
-[SOLID_DENSITY:3100][MATERIAL_REACTION_PRODUCT:FIRED_MAT:INORGANIC:CERAMIC_PORCELAIN]
+[SOLID_DENSITY:3100][MATERIAL_REACTION_PRODUCT:FIRED_MAT:INORGANIC:CERAMIC_PORCELAIN]!
 
 aluminum can occasionally be found in its free form in environments that like oxygen, volcanic muds were mentioned
 [INORGANIC:NATIVE_ALUMINUM]
@@ -395,6 +431,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 [ITEMS_HARD]
 [IS_STONE]
 
+no BORAX
 [INORGANIC:OLIVINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [STATE_NAME_ADJ:ALL_SOLID:olivine][DISPLAY_COLOR:2:7:0][TILE:'%']
@@ -402,6 +439,12 @@ aluminum can occasionally be found in its free form in environments that like ox
 [IS_STONE]
 [MELTING_POINT:13168]
 [SOLID_DENSITY:3320]
+
+no HORNBLENDE
+
+no KAOLINITE
+
+no SERPENTINE
 
 used with kaolinite sometimes for ceramics
 [INORGANIC:ORTHOCLASE]
@@ -413,6 +456,13 @@ used with kaolinite sometimes for ceramics
 [MELTING_POINT:12250]
 [SOLID_DENSITY:2560]
 
+no MICROCLINE
+
+no MICA
+
+no CALCITE
+
+no SALTPETER
 
 [INORGANIC:ALABASTER]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -422,6 +472,14 @@ used with kaolinite sometimes for ceramics
 [IS_STONE]
 [REACTION_CLASS:GYPSUM]
 [MELTING_POINT:10261]
+
+no SELENITE
+
+no SATINSPAR
+
+no ANHYDRITE
+
+no ALUNITE
 
 [INORGANIC:RAW_ADAMANTINE]
 [ITEM_SYMBOL:'*']

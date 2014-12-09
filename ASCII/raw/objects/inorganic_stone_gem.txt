@@ -13,7 +13,7 @@ QUARTZ		Amethyst, agates, aventurine, bloodstone, carnelian, citrine, chalcedoni
 JADES		Jades
 OPALS		Opals
 FELDSPAR	Moonstone, Sunstone
-TOURMALINES	Tourmalines
+TOURMALINES	Tourmalines, schorl
 ZIRCONS		Zircons
 GARNETS		Garnets, pyropes, melanite, demantoid, topazolite, grossulars / tsavorite,
 		almandine, rhodolite, spessartines
@@ -22,7 +22,7 @@ CHRYSOBERYLS	Chrysoberyl, alexandrite, cat's eye
 SPINELS		Spinels, rubicelle
 CORUNDUMS	Ruby, sapphire
 DIAMONDS	Diamonds
-OTHER		Schorl, variscite, chrysocolla, tiger iron, pyrite, peridot, tanzanite, kunzite
+OTHER		Variscite, chrysocolla, tiger iron, pyrite, peridot, tanzanite, kunzite
  
 I'm leaving this data here in case it can someday be used to organize things in the future.
 
@@ -35,6 +35,12 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2650]  Common to quartz gems
 [STATE_COLOR:ALL_SOLID:BLACK]
+
+no MORION
+
+no SCHORL
+
+no LACE AGATE
 
 [INORGANIC:BLUE JADE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -51,6 +57,10 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2800]  Range of 2700 - 2900
 [STATE_COLOR:ALL_SOLID:AZURE]
 
+no PRASE
+
+no PRASE OPAL
+
 [INORGANIC:BLOODSTONE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:bloodstone:STP:OVERWRITE_SOLID]
@@ -58,6 +68,31 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2650]  Common to quartz gems
 [STATE_COLOR:ALL_SOLID:SEA_GREEN]  Bloodstones are actually dark green with red bands.
 
+no MOSS AGATE
+
+no MOSS OPAL
+
+no VARISCITE
+
+no CHRYSOPRASE
+
+no CHRYSOCOLLA
+
+no SARD
+
+no CARNELIAN
+
+no BANDED AGATE
+
+no SARDONYX
+
+no CHERRY OPAL
+
+no LAVENDER JADE
+
+no PINK JADE
+
+no TUBE AGATE
 
 [INORGANIC:FIRE AGATE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -66,12 +101,30 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2650]  Common to quartz gems
 [STATE_COLOR:ALL_SOLID:LEMON]  These change color depending on how you look at them.
 
+no PLUME AGATE
+
+no BROWN JASPER
+
+no PICTURE JASPER
+
+no SMOKY QUARTZ
+
 [INORGANIC:WAX OPAL]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:wax opal:STP:OVERWRITE_SOLID]
 [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
 [SOLID_DENSITY:2115]  Common to opals.  Range is 1980 - 2250
 [STATE_COLOR:ALL_SOLID:FLAX]
+
+no WOOD OPAL
+
+no AMBER OPAL
+
+no GOLD OPAL
+
+no CITRINE
+
+no YELLOW JASPER
 
 [INORGANIC:TIGEREYE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -95,6 +148,8 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2655]  Common to feldspars.  Range is 2550 - 2760
 [STATE_COLOR:ALL_SOLID:PUMPKIN]  Is actually red with shiny yellow flecks in it.
 
+no RESIN OPAL
+
 [INORGANIC:PYRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:pyrite:STP:OVERWRITE_SOLID]
@@ -112,6 +167,17 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:3140]  Common to tourmalines.  Range is 3030 - 3250
 [STATE_COLOR:ALL_SOLID:CLEAR]
 
+no GRAY CHALCEDONY
+
+no DENDRITIC AGATE
+
+no SHELL OPAL
+
+no BONE OPAL
+
+no WHITE CHALCEDONY
+
+no FORTIFICATION AGATE
 
 [INORGANIC:MILK QUARTZ]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -127,6 +193,17 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2655]  Common to feldspars.  Range is 2550 - 2760
 [STATE_COLOR:ALL_SOLID:IVORY]  It shines a beautful blue in some lighting.
 
+no WHITE JADE
+
+no JASPER OPAL
+
+no PINEAPPLE OPAL
+
+no ONYX OPAL
+
+no MILK OPAL
+
+no PIPE OPAL
 
 [INORGANIC:AVENTURINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -139,6 +216,7 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [TILE:15][IS_GEM:turquoise:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:2]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:KAOLINITE:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2700]  Range is 2600 - 2800
 [STATE_COLOR:ALL_SOLID:TURQUOISE]
@@ -167,7 +245,21 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:4650]  Common to zircons.  Range is 4600 - 4700
 [STATE_COLOR:ALL_SOLID:BLACK]
 
+no BLACK PYROPE
 
+no MELANITE
+
+no INDIGO TOURMALINE
+
+no BLUE GARNET
+
+no TSAVORITE
+
+no GREEN TOURMALINE
+
+no DEMANTOID
+
+no GREEN ZIRCON
 
 [INORGANIC:GREEN JADE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -176,11 +268,27 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:3000]  Common to jades.  Range is 2900 - 3100
 [STATE_COLOR:ALL_SOLID:JADE]
 
+no HELIODOR
+
+no PERIDOT
+
+no RED ZIRCON
+
+no RED TOURMALINE
+
+no RED PYROPE
+
+no ALMANDINE
+
+no RED GROSSULAR
+
+no PINK TOURMALINE
 
 [INORGANIC:RED BERYL]red beryl is very rare
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:1][TILE:15][IS_GEM:red beryl:STP:OVERWRITE_SOLID]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:1]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:1)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:1]
 [SOLID_DENSITY:2770]  Common to beryls.  Range 2630 - 2910
 [STATE_COLOR:ALL_SOLID:RED]
@@ -192,10 +300,15 @@ I'm leaving this data here in case it can someday be used to organize things in 
 [SOLID_DENSITY:2115]  Common to opals.  Range is 1980 - 2250
 [STATE_COLOR:ALL_SOLID:SCARLET]
 
+no RHODOLITE
+
+no SPINEL_PURPLE
+
 [INORGANIC:ALEXANDRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:alexandrite:STP:OVERWRITE_SOLID]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:3730]  Common to chrysoberyls.  Range 3680 - 3780
 [STATE_COLOR:ALL_SOLID:VIOLET]
@@ -210,13 +323,38 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [SOLID_DENSITY:3350]  Range of about 3200 - 3400
 [STATE_COLOR:ALL_SOLID:AZURE]
 
+no MORGANITE
+
+no VIOLET SPESSARTINE
+
+no PINK GARNET
+
+no KUNZITE
+
+no CINNAMON GROSSULAR
+
+no HONEY YELLOW BERYL
+
+no JELLY OPAL
+
+no BROWN ZIRCON
+
+no YELLOW ZIRCON
+
+no GOLDEN BERYL
+
+no YELLOW SPESSARTINE
+
 [INORGANIC:TOPAZ]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:topaz:STP:OVERWRITE_SOLID]
+[MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:topaz:topazes:OVERWRITE_SOLID]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:3550]  Range of 3500 - 3600
 [STATE_COLOR:ALL_SOLID:GOLDENROD]
 
+no TOPAZOLITE
+
+no YELLOW GROSSULAR
 
 [INORGANIC:RUBICELLE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -236,10 +374,13 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [SOLID_DENSITY:3900]  Common to garnets.  Range is 3500 - 4300
 [STATE_COLOR:ALL_SOLID:CLEAR]
 
+no GOSHENITE
+
 [INORGANIC:CAT'S EYE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:cat's eye:STP:OVERWRITE_SOLID]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:3730]  Common to chrysoberyls.  Range 3680 - 3780
 [STATE_COLOR:ALL_SOLID:CREAM]
@@ -263,6 +404,7 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [TILE:15][IS_GEM:aquamarine:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:20]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2770]  Common to beryls.  Range 2630 - 2910
 [STATE_COLOR:ALL_SOLID:AQUAMARINE]
@@ -280,6 +422,7 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [TILE:15][IS_GEM:chrysoberyl:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:1][MATERIAL_VALUE:20]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:3730]  Common to chrysoberyls.  Range 3680 - 3780
 [STATE_COLOR:ALL_SOLID:CHARTREUSE]
@@ -291,6 +434,23 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [SOLID_DENSITY:2115]  Common to opals.  Range is 1980 - 2250
 [STATE_COLOR:ALL_SOLID:RED]  As always, opals vary in color a lot.
 
+no OPAL_REDFLASH
+
+no OPAL_BLACK
+
+no OPAL_WHITE
+
+no OPAL_CRYSTAL
+
+no OPAL_CLARO
+
+no OPAL_LEVIN
+
+no OPAL_HARLEQUIN
+
+no OPAL_PINFIRE
+
+no OPAL_BANDFIRE
 
 [INORGANIC:DIAMOND_LY]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -299,7 +459,7 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [IGNITE_POINT:11440]
 [MELTING_POINT:NONE]
 [BOILING_POINT:16708]
-[ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+[ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]!~ KIMBERLITE ~ GRANITE
 [SOLID_DENSITY:3520]
 [STATE_COLOR:ALL_SOLID:CREAM]
 
@@ -312,7 +472,7 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [IGNITE_POINT:11440]
 [MELTING_POINT:NONE]
 [BOILING_POINT:16708]
-[ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
+[ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]!~ KIMBERITE ~ GABBRO
 [SOLID_DENSITY:3520]
 [STATE_COLOR:ALL_SOLID:BEIGE]
 
@@ -320,6 +480,7 @@ Of course, it should also be really rare, because it only occurs in one part of 
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [TILE:15][IS_GEM:emerald:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:40]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+(ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100)
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2770]  Common to beryls.  Range 2630 - 2910
 [STATE_COLOR:ALL_SOLID:EMERALD]
