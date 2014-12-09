@@ -1,0 +1,17 @@
+no SOMETHING = SOMETHING has been removed
+[SOMETHING]! = [SOMETHING] Has been added
+!~ SOMETHING ~ SOMETHING_ELSE = Replaced SOMETHING with SOMETHING_ELSE
+(SOMETHING) = (SOMETHING) has been removed but can be added again by changing the () with []
+!? = I am not sure what to do about this one >.> HELP!
+
+
+These refrences don't always hold true. I did leave out some "!~ LOCAL_CREATURE_MAT ~ CREATURE_MAT:ANIMAL" notes most of the creature files.
+
+In a few of the creture files I noted these two reoccuring lines:
+[USE_MATERIAL_TEMPLATE:ICHOR:ICHOR_TEMPLATE]!?
+[BLOOD:CREATURE_MAT:ANIMAL:ICHOR:LIQUID]!?
+
+The vanilla had these lines instead. Should I change them?
+[USE_MATERIAL_TEMPLATE:BLOOD:BLOOD_TEMPLATE]
+	[STATE_COLOR:ALL:BLUE] copper not iron based
+[BLOOD:LOCAL_CREATURE_MAT:BLOOD:LIQUID]
